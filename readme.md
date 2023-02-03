@@ -31,3 +31,10 @@ npx tailwindcss init -p
 @tailwind utilities;
 ```
 >create index.html and link to /css/tailwind.css
+
+## If we need everything updated
+
+>Update Every package
+```sh
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest vite@latest
+```
